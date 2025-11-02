@@ -1,47 +1,114 @@
-<Courses xmlns="http://venus.sod.asu.edu/WSRepository/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml Courses.xsd">
-<Course>
-<Code Undergrad="CSE240"/>
-<Name>Introduction to Programming Languages</Name>
-<Instructor>
-<Name>
-<First>Calvin</First>
-<Last>Cheng</Last>
-</Name>
-<Contact>
-<Phone>480-965 1111</Phone>
-</Contact>
-</Instructor>
-<Room>BYAC110</Room>
-<cap>82</cap>
-</Course>
-<Course>
-<Code Undergrad="CSE445" Graduate="CSE598"/>
-<Name>Distributed Software Development</Name>
-<Instructor>
-<Name>
-<First>Yinong</First>
-<Last>Chen</Last>
-</Name>
-<Contact Office="BYENG414">
-<Phone>480-965 2769</Phone>
-</Contact>
-</Instructor>
-<Room>BYAC210</Room>
-<cap>57</cap>
-</Course>
-<Course>
-<Code Undergrad="CSE360"/>
-<Name>Software Engineering</Name>
-<Instructor>
-<Name>
-<First>James</First>
-<Last>Collofello</Last>
-</Name>
-<Contact>
-<Phone>480-965 0000</Phone>
-</Contact>
-</Instructor>
-<Room>BYAC270</Room>
-<cap>65</cap>
-</Course>
-</Courses>
+<Hotels xmlns="https://farisabujolban.github.io/cse445_a4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://farisabujolban.github.io/cse445_a4/ Hotels.xsd">
+<Hotels>
+    <Hotel Rating="4.4">
+        <Name>Hampton Inn and Suites Phoenix/Gilbert</Name>
+        <Phone>480-543-1500</Phone>
+        <Address NearestAirport="Phoenix Mesa Gateway Airport">
+            <Number>3265</Number>
+            <Street>S Market St</Street>
+            <City>Gilbert</City>
+            <State>AZ</State>
+            <Zip>85297</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.4">
+        <Name>Four Points by Sheraton at Phoenix Mesa Gateway Airport</Name>
+        <Phone>480-579-2100</Phone>
+        <Address NearestAirport="Phoenix Mesa Gateway Airport">
+            <Number>6850</Number>
+            <Street>E Williams Field Rd</Street>
+            <City>Mesa</City>
+            <State>AZ</State>
+            <Zip>85212</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.3">
+        <Name>Home2 Suites by Hilton Gilbert</Name>
+        <Phone>480-857-4778</Phone>
+        <Address NearestAirport="Phoenix Mesa Gateway Airport">
+            <Number>3333</Number>
+            <Street>S Market St</Street>
+            <City>Gilbert</City>
+            <State>AZ</State>
+            <Zip>85297</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.1">
+        <Name>Holiday Inn Phoenix - Chandler by IHG</Name>
+        <Phone>480-203-2121</Phone>
+        <Address NearestAirport="Phoenix Mesa Gateway Airport">
+            <Number>1200</Number>
+            <Street>W Ocotillo Rd</Street>
+            <City>Chandler</City>
+            <State>AZ</State>
+            <Zip>85248</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="3.7">
+        <Name>DoubleTree by Hilton Hotel Phoenix - Gilbert</Name>
+        <Phone>480-809-4100</Phone>
+        <Address NearestAirport="Phoenix Mesa Gateway Airport">
+            <Number>1800</Number>
+            <Street>S Santan Village Pkwy</Street>
+            <City>Gilbert</City>
+            <State>AZ</State>
+            <Zip>85295</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="3.4">
+        <Name>WoodSpring Suites Gilbert</Name>
+        <Phone>623-387-8977</Phone>
+        <Address NearestAirport="Phoenix Mesa Gateway Airport">
+            <Number>7650</Number>
+            <Street>S Power Rd</Street>
+            <City>Gilbert</City>
+            <State>AZ</State>
+            <Zip>85297</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.4">
+        <Name>Hampton Inn Queen Creek</Name>
+        <Phone>480-888-7474</Phone>
+        <Address NearestAirport="Phoenix Mesa Gateway Airport">
+            <Number>20768</Number>
+            <Street>E Maya Rd</Street>
+            <City>Queen Creek</City>
+            <State>AZ</State>
+            <Zip>85142</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.4">
+        <Name>Courtyard by Marriott Phoenix Mesa Gateway Airport</Name>
+        <Phone>480-351-7088</Phone>
+        <Address NearestAirport="Phoenix Mesa Gateway Airport">
+            <Number>6907</Number>
+            <Street>E Ray Rd</Street>
+            <City>Mesa</City>
+            <State>AZ</State>
+            <Zip>85212</Zip>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.4">
+        <Name>Candlewood Suites Mesa - Phoenix East by IHG</Name>
+        <Phone>480-908-1033</Phone>
+        <Address NearestAirport="Phoenix Mesa Gateway Airport">
+            <Number>1748</Number>
+            <Street>S Crismon Rd</Street>
+            <City>Mesa</City>
+            <State>AZ</State>
+            <Zip>85209</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.4">
+        <Name>Hyatt Regency Phoenix</Name>
+        <Phone>602-252-1234</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>122</Number>
+            <Street>N 2nd St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+</Hotels>
