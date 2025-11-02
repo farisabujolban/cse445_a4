@@ -1,4 +1,4 @@
-<Hotels xmlns="https://farisabujolban.github.io/cse445_a4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://farisabujolban.github.io/cse445_a4/ Hotels.xsd">
+<Hotels xmlns="Hotels.xsd" xmlns:xsi="Hotels.xsd" xsi:schemaLocation="Hotels.xsd">
 <Hotels>
     <Hotel Rating="4.4">
         <Name>Hampton Inn and Suites Phoenix/Gilbert</Name>
