@@ -1,5 +1,5 @@
 <Hotels xmlns="Hotels.xsd" xmlns:xsi="Hotels.xsd" xsi:schemaLocation="Hotels.xsd">
-<!-- 1) The root element name is Hotel, instead of Hotels -->
+<!-- 1 The root element name is Hotel, instead of Hotels -->
 <Hotel>
     <Hotel Rating="4.4">
         <Name>Hampton Inn and Suites Phoenix/Gilbert</Name>
@@ -12,7 +12,7 @@
             <Zip>85297</Zip>
         </Address>
     </Hotel>
-    <!-- 2) A required attribute is missing; -->
+    <!-- 2 A required attribute is missing; -->
     <Hotel>
         <Name>Four Points by Sheraton at Phoenix Mesa Gateway Airport</Name>
         <Phone>480-579-2100</Phone>
@@ -24,7 +24,7 @@
             <Zip>85212</Zip>
         </Address>
     </Hotel>
-    <!-- 3) A Phone element is missing on one of the hotels. -->
+    <!-- 3 A Phone element is missing on one of the hotels. -->
     <Hotel Rating="4.3">
         <Name>Home2 Suites by Hilton Gilbert</Name>
         <Address NearestAirport="Phoenix Mesa Gateway Airport">
@@ -35,7 +35,7 @@
             <Zip>85297</Zip>
         </Address>
     </Hotel>
-    <!-- 4) An Address element has no closing tag -->
+    <!-- 4 An Address element has no closing tag -->
     <Hotel Rating="4.1">
         <Name>Holiday Inn Phoenix - Chandler by IHG</Name>
         <Phone>480-203-2121</Phone>
@@ -46,7 +46,7 @@
             <State>AZ</State>
             <Zip>85248</Zip>
     </Hotel>
-    <!-- 5) Two names are provided for one of the hotels. -->
+    <!-- 5 Two names are provided for one of the hotels. -->
     <Hotel Rating="3.7">
         <Name>DoubleTree by Hilton Hotel Phoenix - Gilbert</Name>
         <Name>Metro Phoenix Extended Stay</Name>
