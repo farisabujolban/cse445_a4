@@ -28,7 +28,7 @@
             <xsd:element name="State" type="xsd:string"/>
             <xsd:element name="Zip" type="xsd:string"/>
         </xsd:sequence>
-        <xsd:attribute name="NearestAirport" type="xsd:decimal" use="required"/>
+        <xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
     </xsd:complexType>
     <!--  Define the allowed format for the Phone number with a regular exp.  -->
     <xsd:simpleType name="PhoneType">
