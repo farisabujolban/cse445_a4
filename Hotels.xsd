@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://farisabujolban.github.io/cse445_a4/" targetNamespace="https://farisabujolban.github.io/cse445_a4/" elementFormDefault="qualified" attributeFormDefault="unqualified">
-    <xsd:annotation>
+<!-- <?xml version="1.0" encoding="UTF-8" ?> -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://farisabujolban.github.io/cse445_a4/" targetNamespace="https://www.w3schools.com" elementFormDefault="qualified">
+    <!-- <xsd:annotation>
         <xsd:documentation xml:lang="en"> Hotel Schema Assignment 4 XML
         </xsd:documentation>
-    </xsd:annotation>
+    </xsd:annotation> -->
     <xsd:element name="Hotels" type="HotelsType"/>
     <xsd:complexType name="HotelsType">
         <xsd:sequence>
@@ -13,12 +13,10 @@
     <xsd:complexType name="HotelDetails">
         <xsd:sequence>
             <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-            <xsd:sequence>
-                <xsd:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded"/>
-            </xsd:sequence>
+            <xsd:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded"/>
             <xsd:element name="Address" type="AddressType" minOccurs="1" maxOccurs="1"/>
         </xsd:sequence>
-        <xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
+        <xsd:attribute name="Rating" type="xsd:string" use="optional"/>
     </xsd:complexType>
     <xsd:complexType name="AddressType">
         <xsd:sequence>
